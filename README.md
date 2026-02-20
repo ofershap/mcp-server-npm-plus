@@ -97,11 +97,10 @@ More MCP servers and developer tools on my [portfolio](https://gitshow.dev/ofers
 
 ## Author
 
-**Ofer Shapira**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ofershap-blue?logo=linkedin)](https://linkedin.com/in/ofershap)
-[![GitHub](https://img.shields.io/badge/GitHub-ofershap-black?logo=github)](https://github.com/ofershap)
-[![Portfolio](https://img.shields.io/badge/Portfolio-gitshow.dev-orange)](https://gitshow.dev/ofershap)
+<table><tr>
+<td><a href="https://github.com/ofershap"><img src="https://avatars.githubusercontent.com/u/2589702?s=80" width="60"></a></td>
+<td><strong>Ofer Shapira</strong><br><a href="https://linkedin.com/in/ofershap">LinkedIn</a> · <a href="https://github.com/ofershap">GitHub</a> · <a href="https://gitshow.dev/ofershap">Portfolio</a></td>
+</tr></table>
 
 ## License
 
