@@ -6,15 +6,21 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The ultimate npm companion for your AI assistant — search packages, check bundle sizes, scan vulnerabilities, compare downloads, and inspect dependency trees. Zero auth.
+npm package research from your AI assistant. Search packages, check bundle sizes, scan for vulnerabilities, compare download counts, and inspect dependency trees. No API keys needed.
 
 ```bash
 npx mcp-server-npm-plus
 ```
 
-> Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client. Zero auth — uses public npm registry APIs.
+> Works with Claude Desktop, Cursor, VS Code Copilot, and any MCP client. Uses public npm registry APIs.
 
-![Demo](assets/demo.gif)
+![MCP server for npm package search, bundle size, and vulnerability scanning](assets/demo.gif)
+
+<sub>Demo built with <a href="https://github.com/ofershap/remotion-readme-kit">remotion-readme-kit</a></sub>
+
+## Why
+
+Choosing between npm packages usually means opening a bunch of browser tabs: npm for package info, Bundlephobia for size, Snyk for vulnerabilities, npm trends for download comparisons. This server puts all of that in one place, accessible through your AI assistant. Ask "compare zustand vs jotai vs valtio" and get download numbers, bundle sizes, and dependency counts side by side. Ask "are there any known vulnerabilities in express?" and get the answer without leaving your editor. It uses only public npm APIs, so there's nothing to sign up for.
 
 ## Tools
 
@@ -33,8 +39,7 @@ npx mcp-server-npm-plus
 
 ### Cursor
 
-1. Open Cursor Settings → MCP
-2. Add to `mcpServers`:
+Add to `.cursor/mcp.json`:
 
 ```json
 {
@@ -62,18 +67,18 @@ Add to `claude_desktop_config.json`:
 }
 ```
 
-### VS Code (Copilot + MCP)
+### VS Code
 
 Use the MCP extension and configure the server with `npx mcp-server-npm-plus`.
 
 ## Example Prompts
 
-- **Search npm for React state management libraries** — Use `search` with query "react state management"
-- **What's the bundle size of lodash?** — Use `bundle_size` with name "lodash"
-- **Compare downloads of zustand vs jotai vs valtio** — Use `compare_downloads` with packages `["zustand", "jotai", "valtio"]`
-- **Check for vulnerabilities in express** — Use `vulnerabilities` with name "express"
-- **Show me the dependency tree for next** — Use `dependency_tree` with name "next"
-- **What are the download trends for typescript this month?** — Use `download_trends` with name "typescript"
+- "Search npm for React state management libraries"
+- "What's the bundle size of lodash?"
+- "Compare downloads of zustand vs jotai vs valtio"
+- "Check for vulnerabilities in express"
+- "Show me the dependency tree for next"
+- "What are the download trends for typescript this month?"
 
 ## Development
 
@@ -88,8 +93,11 @@ npm run format
 
 ## Author
 
-Ofer Shapira
+**Ofer Shapira**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ofershap-blue?logo=linkedin)](https://linkedin.com/in/ofershap)
+[![GitHub](https://img.shields.io/badge/GitHub-ofershap-black?logo=github)](https://github.com/ofershap)
 
 ## License
 
-MIT
+MIT © 2026 Ofer Shapira
