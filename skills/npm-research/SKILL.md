@@ -9,16 +9,16 @@ Use this skill for in-depth npm package research: bundle sizes, vulnerability sc
 
 ## Available Tools
 
-| Tool | What it does |
-|------|-------------|
-| `search` | Search npm packages by query |
-| `package_info` | Detailed info: description, license, repo, dependencies |
-| `downloads` | Download stats for a package |
-| `compare_downloads` | Compare download counts across multiple packages |
-| `bundle_size` | Bundle size (minified + gzip) via Bundlephobia |
-| `vulnerabilities` | Known vulnerability info and advisory links |
-| `dependency_tree` | Show direct dependencies as a tree |
-| `download_trends` | Daily breakdown with sparkline visualization |
+| Tool                | What it does                                            |
+| ------------------- | ------------------------------------------------------- |
+| `search`            | Search npm packages by query                            |
+| `package_info`      | Detailed info: description, license, repo, dependencies |
+| `downloads`         | Download stats for a package                            |
+| `compare_downloads` | Compare download counts across multiple packages        |
+| `bundle_size`       | Bundle size (minified + gzip) via Bundlephobia          |
+| `vulnerabilities`   | Known vulnerability info and advisory links             |
+| `dependency_tree`   | Show direct dependencies as a tree                      |
+| `download_trends`   | Daily breakdown with sparkline visualization            |
 
 ## Workflow
 
