@@ -1,7 +1,7 @@
 {
   "name": "mcp-server-npm-plus",
   "version": "1.0.0",
-  "description": "MCP server for npm \u2014 search packages, check bundle sizes, scan vulnerabilities, compare downloads, and inspect dependencies",
+  "description": "MCP server for npm — search packages, check bundle sizes, scan vulnerabilities, compare downloads, and inspect dependencies",
   "type": "module",
   "bin": {
     "mcp-server-npm-plus": "./dist/index.js"
