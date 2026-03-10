@@ -18,6 +18,10 @@ npx mcp-server-npm-plus
 
 <sub>Demo built with <a href="https://github.com/ofershap/remotion-readme-kit">remotion-readme-kit</a></sub>
 
+<a href="https://glama.ai/mcp/servers/ofershap/mcp-server-npm-plus">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/ofershap/mcp-server-npm-plus/badge" alt="mcp-server-npm-plus MCP server" />
+</a>
+
 ## Why
 
 Choosing between npm packages usually means opening a bunch of browser tabs: npm for package info, Bundlephobia for size, Snyk for vulnerabilities, npm trends for download comparisons. This server puts all of that in one place, accessible through your AI assistant. Ask "compare zustand vs jotai vs valtio" and get download numbers, bundle sizes, and dependency counts side by side. Ask "are there any known vulnerabilities in express?" and get the answer without leaving your editor. It uses only public npm APIs, so there's nothing to sign up for.
