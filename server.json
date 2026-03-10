@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ofershap/npm-plus",
+  "description": "npm MCP — search packages, bundle sizes, vulnerabilities, compare downloads.",
+  "repository": {
+    "url": "https://github.com/ofershap/mcp-server-npm-plus",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "mcp-server-npm-plus",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

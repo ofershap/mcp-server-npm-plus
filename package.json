@@ -1,6 +1,7 @@
 {
   "name": "mcp-server-npm-plus",
-  "version": "1.0.0",
+  "mcpName": "io.github.ofershap/npm-plus",
+  "version": "1.0.1",
   "description": "MCP server for npm — search packages, check bundle sizes, scan vulnerabilities, compare downloads, and inspect dependencies",
   "type": "module",
   "bin": {
