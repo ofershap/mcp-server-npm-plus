@@ -35,6 +35,10 @@ Choosing between npm packages usually means opening a bunch of browser tabs: npm
 | `dependency_tree`   | Show direct dependencies as a tree                          |
 | `download_trends`   | Daily breakdown with sparkline                              |
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ofershap-mcp-server-npm-plus).
+
 ## Quick Start
 
 ### Cursor
